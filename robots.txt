@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://blog.lamaranai.com/sitemap.xml
