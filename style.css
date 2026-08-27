@@ -15,6 +15,28 @@ body {
   padding: 16px;
 }
 
+/* Khusus gambar di dalam artikel */
+.article-image {
+  width: 100%;
+  max-width: 600px;     /* <-- BATASI LEBAR MAKSIMAL GAMBAR */
+  height: auto;
+  border-radius: 8px;
+  margin: 16px auto;     /* <-- TENG AH KAN GAMBAR DI TENGAH */
+  display: block;
+  object-fit: cover;
+}
+
+/* Khusus thumbnail di halaman utama */
+.thumbnail {
+  width: 100%;
+  max-width: 220px;     /* <-- BATASI LEBAR THUMBNAIL */
+  height: 130px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  display: block;
+}
+
 header {
   background: linear-gradient(135deg, #1e3a8a, #3b82f6);
   color: #fff;
