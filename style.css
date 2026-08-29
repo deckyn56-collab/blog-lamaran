@@ -364,3 +364,95 @@ body.dark-mode .search-bubble:hover {
   background: var(--primary-dark);
   box-shadow: 0 4px 12px rgba(245, 158, 11, 0.4);
 }
+
+/* =========================================
+   LOGO DI HEADER (Halaman Utama)
+   ========================================= */
+.header-logo {
+  width: 40px;
+  height: 40px;
+  margin: 0 auto 8px;
+  display: block;
+  border-radius: 8px;
+  background: #f59e0b;
+  object-fit: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Responsif untuk layar kecil */
+@media (max-width: 480px) {
+  .header-logo {
+    width: 32px;
+    height: 32px;
+    margin-bottom: 6px;
+  }
+}
+
+/* Responsif untuk layar besar */
+@media (min-width: 768px) {
+  .header-logo {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 10px;
+  }
+}
+
+/* =========================================
+   LOGO DI TAB BROWSER (FAVICON)
+   ========================================= */
+.link-icon {
+  font-size: 1rem;
+  color: #f59e0b;
+  background: transparent;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+/* =========================================
+   FAVICON - IKON KECIL DI TAB BROWSER
+   ========================================= */
+.favicon {
+  display: none; /* Tidak perlu ditampilkan di halaman */
+}
+
+/* =========================================
+   RESPONSIVE FAVICON
+   ========================================= */
+@media (max-width: 480px) {
+  .header-logo {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+@media (min-width: 768px) {
+  .header-logo {
+    width: 44px;
+    height: 44px;
+  }
+}
+
+/* =========================================
+   LOGO TAMBAHAN (OPSIONAL)
+   ========================================= */
+.extra-logo {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  border-radius: 50%;
+  background: transparent;
+}
+
+/* =========================================
+   STYLE FAVICON DI WEBSITE (BUKAN TAB)
+   ========================================= */
+.favicon-placeholder {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background: transparent;
+  display: block;
+}
