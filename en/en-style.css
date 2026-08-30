@@ -36,6 +36,7 @@ body {
   transition: background 0.3s, color 0.3s;
 }
 
+/* --- HEADER --- */
 header {
   background: linear-gradient(135deg, #f59e0b, #d97706);
   color: #fff;
@@ -81,6 +82,7 @@ nav a:hover {
   background: rgba(255, 255, 255, 0.15);
 }
 
+/* --- MAIN --- */
 main {
   background: var(--card-bg);
   padding: 16px;
@@ -89,7 +91,6 @@ main {
   transition: background 0.3s, box-shadow 0.3s;
 }
 
-/* --- JUDUL MENGIKUTI VARIABEL --text (AUTO BERUBAH DI DARK MODE) --- */
 h1 {
   font-size: 2rem;
   font-weight: 800;
@@ -101,14 +102,6 @@ h2 {
   font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 8px;
-  color: var(--text);
-}
-
-/* Judul artikel */
-article h3 {
-  font-size: 1rem;
-  font-weight: 700;
-  margin-bottom: 4px;
   color: var(--text);
 }
 
@@ -144,7 +137,7 @@ p {
   display: block;
 }
 
-/* --- HERO SECTION --- */
+/* --- HERO SECTION (Untuk Halaman Inggris) --- */
 .hero {
   text-align: center;
   padding: 24px 16px;
@@ -178,7 +171,7 @@ p {
   background: var(--primary-dark);
 }
 
-/* --- VALUE PROPOSITION --- */
+/* --- VALUE PROPOSITION (Untuk Halaman Inggris) --- */
 .value-prop {
   margin-bottom: 24px;
 }
@@ -233,6 +226,13 @@ article {
 
 article:hover {
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+article h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 4px;
+  color: var(--text);
 }
 
 .date {
